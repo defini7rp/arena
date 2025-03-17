@@ -15,12 +15,6 @@ void arena_deinit(Arena* arena);
 
 void* arena_grab(Arena* arena, size_t bytes);
 
-typedef struct Test
-{
-    int a;
-    float b;
-} Test;
-
 #ifdef ARENA_IMPL
 #undef ARENA_IMPL
 
